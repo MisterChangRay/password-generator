@@ -16,9 +16,9 @@
         <div class="alert alert-warning" role="alert">
           说明
           <ol>
-            <li>密码计算全部在本地进行</li>
-            <li>记忆密码复杂一点（固定）</li>
-            <li>区分代码按一定规则：比如QQ密码区分代码为qq</li>
+            <li>密码全部本地离线计算</li>
+            <li>主密码复杂一点（固定且需要记忆）</li>
+            <li>域名：可以为目标站点地址, 或者其他助记词</li>
           </ol>
         </div>
         <form>
@@ -26,7 +26,7 @@
           <div class="input-group mb-2 mr-sm-2">
             <div class="input-group-prepend">
               <span class="input-group-text">🔑</span>
-              <div class="input-group-text">记忆密码</div>
+              <div class="input-group-text">主密码</div>
             </div>
             <input type="password" class="form-control" id="pwd" placeholder="Memory Password" value="" />
             <div class="input-group-prepend">
@@ -35,13 +35,13 @@
             </div>
           </div>
 
-          <!--区分代码-->
+          <!--网站域名-->
           <div class="input-group mb-2 mr-sm-2">
             <div class="input-group-prepend">
               <div class="input-group-text">🏷️</div>
-              <div class="input-group-text">区分代码</div>
+              <div class="input-group-text">网站域名</div>
             </div>
-            <input type="text" class="form-control" id="key" placeholder="Distinguish Code" value="" />
+            <input type="text" class="form-control" id="key" placeholder="e.g: www.mtils.com" value="" />
           </div>
 
           <!--密码长度-->
